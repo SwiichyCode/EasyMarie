@@ -9,10 +9,10 @@ export default function Tableaux({ data }) {
         <tr>
           <th>Img</th>
           <th>Item name</th>
-          <th>Quantity</th>
-          <th>Cristal price</th>
-          <th>Unit price</th>
-          <th>Total /u</th>
+          <th>Quantité</th>
+          <th>Prix en cristaux</th>
+          <th>A l'unité</th>
+          <th>Par stack</th>
         </tr>
       </thead>
       <ItemList data={data} />
